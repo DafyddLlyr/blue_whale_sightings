@@ -1,0 +1,132 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "Blue Whale Sightings",
+          "type": "cluster",
+          "config": {
+            "dataId": "Blue Whale Sightings",
+            "label": "Point",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "lat",
+              "lng": "lon"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 25,
+              "colorRange": {
+                "name": "ColorBrewer PuBu-6",
+                "type": "sequential",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#f1eef6",
+                  "#d0d1e6",
+                  "#a6bddb",
+                  "#74a9cf",
+                  "#2b8cbe",
+                  "#045a8d"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "count"
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "gkqh6oejj": []
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 33.47346346783403,
+      "longitude": -119.24193796405049,
+      "pitch": 0,
+      "zoom": 7.707021223382828,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "light",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        218.82023004728686,
+        223.47597962276103,
+        223.47597962276103
+      ],
+      "mapStyles": {}
+    }
+  }
+}
